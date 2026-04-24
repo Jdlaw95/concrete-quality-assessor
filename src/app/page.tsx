@@ -136,21 +136,21 @@ const TESTIMONIALS = [
     quote: "We brought in Concrete Quality Assessor after a failed cube test on our Century City development. Within 48 hours they had diagnosed the problem, issued a forensic report, and given us a clear remedial action plan that our engineer and bank accepted without question. Absolute professionals.",
     name: "Jacques van der Merwe",
     role: "Project Developer",
-    company: "JVM Developments, Cape Town",
+    location: " Cape Town",
     initials: "JV",
   },
   {
-    quote: "We've used CQA on four of our civil engineering projects in the Western Cape. Their SANS 5863 reports are thorough, always on time, and have never been queried by any municipality or consulting engineer. They're our first call on every project now.",
+    quote: "We've used CQA on four of our civil engineering projects in the Western Cape. They are thorough, always on time, and have never let me stress during the project. They're our first call on every project now.",
     name: "Thabo Mokoena",
     role: "Senior Civil Engineer",
-    company: "TMK Engineering Solutions",
+    location: "Cape Town",
     initials: "TM",
   },
   {
-    quote: "As a bank-appointed inspector, I need independent concrete reports I can rely on. Concrete Quality Assessor delivers precisely that — properly structured test reports, correct SANS references, and an assessor who knows what he's looking at. Highly recommended.",
+    quote: "As an inspector, I need independent concrete reports I can rely on. Concrete Quality Assessor delivers precisely that — properly structured test reports, correct SANS references, and an assessor who knows what he's looking at. Highly recommended.",
     name: "Sandra Botha",
     role: "Construction Risk Assessor",
-    company: "Nedbank Property Finance",
+    location: "Cape Town",
     initials: "SB",
   },
 ];
@@ -365,7 +365,7 @@ export default function HomePage() {
               color: "#e5e7eb", letterSpacing: "-.01em",
             }}>
               We don&apos;t just test concrete.{" "}
-              <span className="grad-amber">We ensure that every structure built in the Western Cape is built to last.</span>
+              <span className="grad-amber">We ensure that every structure is built to last.</span>
             </p>
           </div>
 
@@ -410,7 +410,7 @@ export default function HomePage() {
                   border: "1px solid rgba(245,158,11,.25)",
                   borderRadius: ".875rem", padding: ".85rem 1.25rem",
                 }}>
-                  <div style={{ fontSize: "1.8rem", fontWeight: 900, color: "#f59e0b", lineHeight: 1 }}>850+</div>
+                  <div style={{ fontSize: "1.8rem", fontWeight: 900, color: "#f59e0b", lineHeight: 1 }}>150+</div>
                   <div style={{ fontSize: ".8rem", color: "#9ca3af", marginTop: ".2rem" }}>projects quality-assured</div>
                 </div>
               </div>
@@ -626,7 +626,7 @@ export default function HomePage() {
                   <div>
                     <div style={{ fontSize: ".9rem", fontWeight: 700, color: "#f5f5f5" }}>{t.name}</div>
                     <div style={{ fontSize: ".78rem", color: "#6b7280" }}>{t.role}</div>
-                    <div style={{ fontSize: ".75rem", color: "#f59e0b" }}>{t.company}</div>
+                    <div style={{ fontSize: ".75rem", color: "#f59e0b" }}>{t.location}</div>
                   </div>
                 </div>
               </div>
